@@ -1,0 +1,22 @@
+{
+	"name": "tanbir/psr-4",
+	"description": "psr-4 standard for package based PHP namespace autoloading",
+	"license": "MIT",
+	"keywords": [
+		"psr-4",
+		"autoloading",
+		"php",
+		"namespace"
+	],
+	"authors": [
+        {
+            "name": "Tanbir Chowdhury Zihad",
+            "email": "tanbir.dns@gmail.com"
+        }
+    ],
+	"autoload": {
+		"psr-4": {
+			"bubt\\": "app/bubt"
+		}
+	}
+}
